@@ -17,6 +17,8 @@ import com.example.tarea01guarga_links.databinding.ActivityPrincipalBinding
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
+//Principal
+
 class Principal : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration

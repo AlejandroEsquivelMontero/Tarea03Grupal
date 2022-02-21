@@ -37,7 +37,7 @@ class LinksFragment : Fragment() {
             findNavController().navigate(R.id.action_nav_link_to_addLinksFragment)
         }
 
-        //Activar Reciclador
+        //activar reciclador
         val linckAdapter=LinksAdapter()
         val reciclador = binding.reciclador
         reciclador.adapter = linckAdapter
