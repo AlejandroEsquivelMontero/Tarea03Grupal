@@ -29,7 +29,7 @@ class Principal : AppCompatActivity() {
 
         setSupportActionBar(binding.appBarPrincipal.toolbar)
 
-        binding.appBarPrincipal.fab.setOnClickListener { view ->
+        binding.appBarPrincipal.toolbar.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
@@ -40,7 +40,7 @@ class Principal : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow
+                R.id.nav_links, R.id.nav_gallery, R.id.nav_slideshow
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

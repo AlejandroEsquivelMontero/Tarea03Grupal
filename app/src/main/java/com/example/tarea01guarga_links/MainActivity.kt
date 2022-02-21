@@ -55,13 +55,15 @@ class MainActivity : AppCompatActivity() {
         if(user != null){
             val intent = Intent(this, Principal::class.java)
             startActivity(intent)
+        }else{
+
         }
     }
 
     public override fun onStart(){
         super.onStart()
-        val usuario = auth.currentUser
-        actualizar(usuario)
+        val user = auth.currentUser
+        actualizar(user)
     }
 
     private fun haceLogin() {

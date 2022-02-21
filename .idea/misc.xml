@@ -4,7 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/PC/AndroidStudioProjects/Tarea01Guarga_Links/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/Tarea01Guarga_Links/app/src/main/res/layout/content_principal.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Tarea01Guarga_Links/app/src/main/res/layout/activity_principal.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Tarea01Guarga_Links/app/src/main/res/layout/app_bar_principal.xml" value="0.2838541666666667" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Tarea01Guarga_Links/app/src/main/res/layout/content_principal.xml" value="0.33" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Tarea01Guarga_Links/app/src/main/res/layout/fragment_add_links.xml" value="0.22" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Tarea01Guarga_Links/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Tarea01Guarga_Links/app/src/main/res/layout/fragment_links.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Tarea01Guarga_Links/app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Tarea01Guarga_Links/app/src/main/res/layout/links_fila.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Tarea01Guarga_Links/app/src/main/res/layout/nav_header_principal.xml" value="0.22" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Tarea01Guarga_Links/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Tarea01Guarga_Links/app/src/main/res/menu/principal.xml" value="0.22" />
       </map>
     </option>

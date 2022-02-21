@@ -3,13 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_link">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.tarea01guarga_links.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_link"
+        android:name="com.example.tarea01guarga_links.ui.Links.LinksFragment"
+        android:label="@string/menu_link"
+        tools:layout="@layout/fragment_links" >
+        <action
+            android:id="@+id/action_nav_link_to_addLinksFragment"
+            app:destination="@id/addLinksFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_gallery"
@@ -22,4 +26,13 @@
         android:name="com.example.tarea01guarga_links.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/addLinksFragment"
+        android:name="com.example.tarea01guarga_links.ui.Links.AddLinksFragment"
+        android:label="fragment_add_links"
+        tools:layout="@layout/fragment_add_links" >
+        <action
+            android:id="@+id/action_addLinksFragment_to_nav_link"
+            app:destination="@id/nav_link" />
+    </fragment>
 </navigation>
