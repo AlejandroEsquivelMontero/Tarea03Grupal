@@ -9,15 +9,15 @@ import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.tarea01guarga_links.R
-import com.example.tarea01guarga_links.databinding.FragmentAddLinksBinding
-import com.example.tarea01guarga_links.databinding.FragmentLinksBinding
+import com.example.tarea01guarga_links.databinding.FragmentAddMascotasBinding
+import com.example.tarea01guarga_links.databinding.FragmentMascotasBinding
 import com.example.tarea01guarga_links.model.Links
 import com.example.tarea01guarga_links.ui.viewmodel.LinksViewModel
 
 class AddLinksFragment : Fragment() {
 
     private lateinit var linksViewModel: LinksViewModel
-    private var _binding: FragmentAddLinksBinding? = null
+    private var _binding: FragmentAddMascotasBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -25,7 +25,7 @@ class AddLinksFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         linksViewModel = ViewModelProvider(this)[LinksViewModel::class.java]
-        _binding = FragmentAddLinksBinding.inflate(inflater, container, false)
+        _binding = FragmentAddMascotasBinding.inflate(inflater, container, false)
 
         binding.btAgregar.setOnClickListener {
             insertarLink()

@@ -27,6 +27,24 @@
         android:minHeight="48dp"
         tools:text="@string/msg_URL" />
 
+    <EditText
+        android:id="@+id/et_URL2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/msg_imagen"
+        android:minHeight="48dp"
+        tools:text="@string/msg_URL" />
+
+    <EditText
+        android:id="@+id/et_URL3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/msg_postal"
+        android:minHeight="48dp"
+        tools:text="@string/msg_URL" />
+
     <Button
         android:id="@+id/bt_agregar"
         android:layout_width="match_parent"

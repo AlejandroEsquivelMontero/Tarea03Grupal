@@ -16,11 +16,13 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     
-    <string name="msg_nombre">Nombre de la pagina</string>
-    <string name="msg_URL">URL de la pagina</string>
-    <string name="msg_imagen">Imagen del URL</string>
+    <string name="msg_nombre">Estado</string>
+    <string name="msg_URL">Poblacion</string>
+    <string name="msg_imagen">CodigoPostal</string>
+    <string name="msg_postal">Capital</string>
 
     <string name="bt_agregar">Agregar</string>
+    <string name="bt_actualizar">Actualizar</string>
     <string name="msg_agregar">Link Agregado</string>
 
     <string name="msg_enviar_correo">Enviar correo electrónico</string>
@@ -35,6 +37,11 @@
     <string name="msg_mensaje_correo">Le escribo este correo para</string>
     <string name="msg_datos">Faltan datos</string>
     <string name="error">Error</string>
+
+
+    <string name="msg_correo">Error</string>
+
+
 
 
 </resources>

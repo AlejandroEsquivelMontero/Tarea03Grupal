@@ -11,14 +11,14 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.tarea01guarga_links.R
 import com.example.tarea01guarga_links.adapter.LinksAdapter
-import com.example.tarea01guarga_links.databinding.FragmentLinksBinding
+import com.example.tarea01guarga_links.databinding.FragmentMascotasBinding
 import com.example.tarea01guarga_links.model.Links
 import com.example.tarea01guarga_links.ui.viewmodel.LinksViewModel
 
 class LinksFragment : Fragment() {
 
     private lateinit var linksViewModel: LinksViewModel
-    private var _binding: FragmentLinksBinding? = null
+    private var _binding: FragmentMascotasBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -31,7 +31,7 @@ class LinksFragment : Fragment() {
     ): View {
         linksViewModel = ViewModelProvider(this)[LinksViewModel::class.java]
 
-        _binding = FragmentLinksBinding.inflate(inflater, container, false)
+        _binding = FragmentMascotasBinding.inflate(inflater, container, false)
 
         binding.btAgregarLinks.setOnClickListener{
             findNavController().navigate(R.id.action_nav_link_to_addLinksFragment)

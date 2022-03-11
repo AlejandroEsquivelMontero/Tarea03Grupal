@@ -3,14 +3,14 @@ package com.example.tarea01guarga_links.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.tarea01guarga_links.databinding.LinksFilaBinding
+import com.example.tarea01guarga_links.databinding.MascotasFilaBinding
 import com.example.tarea01guarga_links.model.Links
 
 class LinksAdapter : RecyclerView.Adapter<LinksAdapter.LinkViewHolder>() {
 
     private var listaLinks = emptyList<Links>()
 
-    inner class LinkViewHolder(private val itemBinding: LinksFilaBinding):
+    inner class LinkViewHolder(private val itemBinding: MascotasFilaBinding):
     RecyclerView.ViewHolder(itemBinding.root){
         fun bind(link: Links){
             itemBinding.tvNombre.text = link.nombre
@@ -19,7 +19,7 @@ class LinksAdapter : RecyclerView.Adapter<LinksAdapter.LinkViewHolder>() {
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LinkViewHolder {
-        val itemBinding = LinksFilaBinding.inflate(LayoutInflater.from(parent.context),parent,false)
+        val itemBinding = MascotasFilaBinding.inflate(LayoutInflater.from(parent.context),parent,false)
         return LinkViewHolder(itemBinding)
     }
 
