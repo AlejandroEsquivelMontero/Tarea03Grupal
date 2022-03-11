@@ -9,7 +9,7 @@
         android:id="@+id/nav_link"
         android:name="com.example.tarea01guarga_links.ui.Links.LinksFragment"
         android:label="@string/menu_link"
-        tools:layout="@layout/fragment_links" >
+        tools:layout="@layout/fragment_mascotas" >
         <action
             android:id="@+id/action_nav_link_to_addLinksFragment"
             app:destination="@id/addLinksFragment" />
@@ -30,7 +30,7 @@
         android:id="@+id/addLinksFragment"
         android:name="com.example.tarea01guarga_links.ui.Links.AddLinksFragment"
         android:label="fragment_add_links"
-        tools:layout="@layout/fragment_add_links" >
+        tools:layout="@layout/fragment_add_mascotas" >
         <action
             android:id="@+id/action_addLinksFragment_to_nav_link"
             app:destination="@id/nav_link" />
